@@ -16,7 +16,7 @@ The Advisor is a tool that is built to help users make informed decisions when p
 
 ## Working:
 * There are 3 main features of the app:
-** First all the user input and the model output are fed back into the model next time a user asks a question to help the model answer questions based on previous interaction.
+  - First all the user input and the model output are fed back into the model next time a user asks a question to help the model answer questions based on previous interaction.
 ** Secondly, the summarize API is called to summarize the prompts (as they get larger with each interaction) - not required generally, but in case !
 ** Lastly about the interface, I have tried to embed the Amazon prices in it for ease of use, but it can be made better if done without streamlit (as the session loads casuse some problem) and using a better trained NER model.
 
