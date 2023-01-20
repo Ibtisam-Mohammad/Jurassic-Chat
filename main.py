@@ -11,7 +11,7 @@ import ai21
 import os
 import re
 
-API_KEY = 'KGJW6F2pb5VF9SdqaAfNyaGYQvpgYd0e'  # Enter your API key
+API_KEY = 'ADD_THE_KEY_HERE'  # Enter your API key
 
 #################------SOME PAGE DESIGNING !--------###################
 
