@@ -11,7 +11,7 @@ The Advisor is a tool that is built to help users make informed decisions when p
 
 ## Usage
 * Clone the repository to your local machine
-``` git clone https://github.com/
+``` git clone https://github.com/Ibtisam-Mohammad/Jurassic-Hackathon ```
 * Install the dependencies: streamlit and streamlit-chat  :)
 
 ## Working:
