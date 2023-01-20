@@ -1,7 +1,6 @@
 # 🦕 JURASSIC HACKATHON 🦕
 ## THE ADVISOR
-This app tries to utilize the Jurassic model capabil
-The Advisor is a tool that is built to help users make informed decisions when purchasing a laptop at least for now). It should be able to aggregate and analyzes real-life reviews to provide a comprehensive understanding of the strengths and weaknesses of various laptop models. The user-friendly interface allows users to easily input their specific needs and preferences, such as battery life, storage capacity, and weight. 
+This app tries to utilize the Jurassic model capabililitites - The Advisor is a tool that is built to help users make informed decisions when purchasing a laptop at least for now). It should be able to aggregate and analyzes real-life reviews to provide a comprehensive understanding of the strengths and weaknesses of various laptop models. The user-friendly interface allows users to easily input their specific needs and preferences, such as battery life, storage capacity, and weight. 
 
 ## Features
 * Aggregates and analyzes real-life reviews from multiple sources
