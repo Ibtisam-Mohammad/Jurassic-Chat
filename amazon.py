@@ -4,15 +4,15 @@ import re, pickle
 import requests
 import base64
 
-API_KEY = 'ADD_THE_KEY_HERE' # Enter your API key
-
+API_KEY = 'ADD_THE_KEY_HERE' # Enter your Jurassic API key
+RAPID_API_KEY = 'ADD_THE_KEY_HERE'
 #################-------Accessing AMAZON API using RapidAPI :( -------###################
 
 def amazon(keyword):
     url = "https://amazon-price1.p.rapidapi.com/search"
     querystring = {"keywords":keyword,"marketplace":"US"}    #Entering a search term
     headers = {
-        "X-RapidAPI-Key": "bf01ff72c8msh1b3ca45edb53363p17a716jsn9c85a919b8ee",
+        "X-RapidAPI-Key": "RAPID_API_KEY",
         "X-RapidAPI-Host": "amazon-price1.p.rapidapi.com"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
