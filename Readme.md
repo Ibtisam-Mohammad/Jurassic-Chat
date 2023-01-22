@@ -13,6 +13,7 @@ This app tries to utilize the Jurassic model capabilites - The Advisor is a tool
 ``` git clone https://github.com/Ibtisam-Mohammad/Jurassic-Hackathon.git ```
 * Install the dependencies: streamlit and streamlit-chat  :)
 * Provide the API keys of the model (and RapidAPI for accessing Amazon for prices !)
+* main_with_embeddings = main.py + experimental embedding model where main.py is the main file.
 
 ## Working:
 * There are 3 main features of the app:
