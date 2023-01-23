@@ -45,7 +45,7 @@ def onClickFunction():
     st.session_state.click_2=False
     st.session_state['generated'] = []
     st.session_state['past'] = []
-    st.session_state['pre_prompt']=pre_prompt_emb
+    st.session_state['pre_prompt']=pre_prompt
 runButton = st.button('Main page',on_click=onClickFunction)
 
 if st.session_state.click:
