@@ -13,7 +13,7 @@ This app tries to utilize the Jurassic model capabilites - The Advisor is a tool
 ``` git clone https://github.com/Ibtisam-Mohammad/Jurassic-Hackathon.git ```
 * Install the dependencies: streamlit and streamlit-chat  :)
 * Provide the API keys of the model (and RapidAPI for accessing Amazon for prices !)
-* main_with_embeddings.py = main.py + experimental embedding model where main.py is the main file.
+* main_with_embeddings.py = main.py + experimental embedding model where main.py is the main file. App link: https://advisor.streamlit.app/
 
 ## Working:
 * There are 3 main features of the app:
@@ -22,6 +22,6 @@ This app tries to utilize the Jurassic model capabilites - The Advisor is a tool
   - Lastly about the interface, I have tried to embed the Amazon prices in it for ease of use, but it can be made better if done without streamlit (as the session loads casuse some problem) and using a better trained NER model.
 
 ## Further Work:
-  - I think first the model needs to get the reults only from a particular database (reviews here) as it is hallucinating and mixing features of other laptops with the output ----- For that waiting for Jurassic-X or an embedding model able to handle longer texts (Jurassic-X would be better)
+  - I think first the model needs to get the reults only from a particular database (reviews here) as it is hallucinating and mixing features of other laptops with the output ----- For that waiting for Jurassic-X or an embedding model able to handle longer texts [Used the embedding model, but have not presented it, there are issues with the complexity, model doesn't understand the prompt.]  (Jurassic-X seems better)
   - Better question/answer training data to teach the model to get the results only from the review database. I guess it could be done but with lot of examples, I may require Q/A for all the reviews !
   - Better way to "chat" with the model, maybe something reinforcement lear.............🙄
